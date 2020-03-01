@@ -2,6 +2,5 @@
 .js*
 .idea*
 test/
-ui/
 screenshots/
 .c9/
