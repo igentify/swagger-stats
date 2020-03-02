@@ -1,3 +1,5 @@
+import jQuery from 'jquery';
+
 /*
  * swagger-stats UI - Chart plugin
  */
