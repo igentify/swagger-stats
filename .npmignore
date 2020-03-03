@@ -4,3 +4,5 @@
 test/
 screenshots/
 .c9/
+.npmrc
+node_modules
