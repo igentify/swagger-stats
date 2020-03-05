@@ -1,0 +1,1 @@
+softwareNPMbuildPlugin(packageType: 'npm')
