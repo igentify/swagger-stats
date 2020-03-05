@@ -1,4 +1,4 @@
-import JsonFormatter from './plugins/json-formatter/json-formatter.umd';
+import JsonFormatter from 'json-formatter-js-extended';
 
 /*
  * swagger-stats UI - Dashboard Layout Definition
@@ -9,7 +9,9 @@ import JsonFormatter from './plugins/json-formatter/json-formatter.umd';
 function showDetails(row) {
   const pre = document.createElement('pre');
   const code = document.createElement('code');
-  const formatter = new JsonFormatter(JSON.parse(row.data()[8]));
+  const formatter = new JsonFormatter(JSON.parse(row.data()[8]), 1, {
+    hoverShareTarget: window.JSON_FORMATTER_SHARE_TARGET || 'https://jsonbin.dev',
+  });
   const payload = formatter.render();
 
   code.appendChild(payload);
