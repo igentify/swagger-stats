@@ -4,7 +4,7 @@
   "description": "API Telemetry and APM. Trace API calls and Monitor API performance, health and usage statistics in Node.js Microservices, based on express routes and Swagger (Open API) specification",
   "main": "lib/index.js",
   "scripts": {
-    "build": "cd ui && npm run build",
+    "build:prod": "cd ui && npm run build",
     "build:old": "npm run copy:ux",
     "copy:ux": "cp -r node_modules/swagger-stats-ux/dist/* ux",
     "start": "node example/app.js",
