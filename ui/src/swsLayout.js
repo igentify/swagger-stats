@@ -11,6 +11,12 @@ function showDetails(row) {
   const code = document.createElement('code');
   const formatter = new JsonFormatter(JSON.parse(row.data()[8]), 1, {
     hoverShareTarget: window.JSON_FORMATTER_SHARE_TARGET || 'https://jsonbin.dev',
+    onRender: (el, context) => {
+      if (['http', 'request', 'query', 'body'].includes(context.key)) {
+        el.classList.add('important');
+      }
+      return el;
+    },
   });
   const payload = formatter.render();
 
