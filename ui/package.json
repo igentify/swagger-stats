@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "json-formatter-js-extended": "^2.4.6",
+    "json-formatter-js-extended": "^2.4.8",
     "moment": "^2.24.0",
     "jquery": "^3.1.1",
     "chart.js": "^2.7.2",
