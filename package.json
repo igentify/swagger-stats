@@ -55,7 +55,7 @@
     "request": "^2.88.0",
     "send": "^0.17.1",
     "uuid": "^3.4.0",
-    "json-formatter-js-extended": "^2.4.6",
+    "json-formatter-js-extended": "^2.4.8",
     "jquery": "^3.1.1",
     "chart.js": "^2.7.2",
     "bootstrap": "^4.4.1",
