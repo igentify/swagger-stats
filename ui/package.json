@@ -9,9 +9,9 @@
   "license": "MIT",
   "dependencies": {
     "json-formatter-js-extended": "^2.4.8",
-    "moment": "^2.24.0",
-    "jquery": "^3.1.1",
-    "chart.js": "^2.7.2",
+    "moment": "^2.29.4",
+    "jquery": "^3.5.0",
+    "chart.js": "^2.9.4",
     "bootstrap": "^4.4.1",
     "chosen-js": "^1.8.2",
     "datatables": "^1.10.13",
